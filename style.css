@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    background-color: #eceffa;
+    padding: 16px;
+    border-radius: 16px;
+    width: 800px;
+    height: 264px;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.child{
+    background-color: #fff;
+    width: 245.33px;
+    border: 1px solid #F1F1F1;
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userImg{
+   width: 64px;
+   object-fit: cover;
+}
+.userName{
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 18px;
+    color: #414F58;
+}
+.location{
+    display: flex;
+    color: #C6CDD5;
+    gap: 5px;
+    align-items: center;
+    margin-top: 4px;
+    margin-bottom: 13px;
+}
+.border{
+    border-top: 1px solid #C6CDD5;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.followerFollowing{
+    display: flex;
+    width: 100%;
+    margin-top: 13px;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+.border2{
+    width: 1px;
+    border-right: 1px solid #C6CDD5;
+}
+.followers, .following{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+}
+.followerName, .followingName{
+    color: #A7B5BE;
+}
+
+.followerValue, .followingValue{
+    font-weight: 600;
+    color: #414F58;
+}
