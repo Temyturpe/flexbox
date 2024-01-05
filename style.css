@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: #F1F1F1;
 }
 .parent{
     background-color: #eceffa;
